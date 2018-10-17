@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock paper Scissors</title>
+    <link rel="stylesheet" href="rockpaperscissors.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <span><h1 id="results"></h1></span>
+        <div class="info" id="player">
+            <h2 id=playerOutcome>Player:</h2>
+            
+        </div>
+
+        <div class="playerContainer">
+            <div class="choice" id="playerRock" onclick="rock()">
+                <i class="far fa-hand-rock"></i>
+            </div>
+            <div class="choice" id="playerPaper" onclick="paper()">
+                <i class="fas fa-hand-paper"></i>
+            </div>
+            <div class="choice" id="playerScissor" onclick="scissors()">
+                <i class="fas fa-hand-scissors"></i>
+            </div>
+        </div>
+
+        <div class="info" id="computer">
+            <h2 id=computerOutcome>Computer:</h2>
+        </div>
+
+        <div class=computerContainer>
+            <div class="choice" id="computerRock">
+                <i class="far fa-hand-rock"></i>
+            </div>
+            <div class="choice" id="computerPaper">
+                <i class="fas fa-hand-paper"></i>
+            </div>
+            <div class="choice" id="computerScissor">
+                <i class="fas fa-hand-scissors"></i>
+            </div>
+            <!--  -->
+        </div>
+    </div>
+    <script src="rockpaperscissors.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+* {}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    animation-name: colorful;
+    animation-duration: 30s;
+    animation-iteration-count: infinte;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+h1 {
+    margin: 50px;
+    font-family: 'Lobster', cursive;
+}
+.playerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.computerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.choice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 100px;
+}
+
+@keyframes colorful {
+    0% {
+        background-color: #a8edea;
+    }
+    50% {
+        background-color: #fed6e3;
+    }
+    100% {
+        background-color: #a8edea;
+    }
+}
